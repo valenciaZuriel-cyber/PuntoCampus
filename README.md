@@ -42,4 +42,34 @@ Crea una rama específica a partir de `main` con un prefijo descriptivo:
 ```bash
 # Ejemplo:
 git checkout -b feature/mapa-ubicacion-campus
+---
 
+## 2. Flujo de Solicitud de Cambios (Pull Requests)
+Realiza commits claros y concisos siguiendo el estándar:
+
+feat: agregar mapa interactivo con pines de edificios
+
+fix: corregir enlace roto del botón de contacto
+
+Sube la rama a GitHub:
+```bash
+git push origin feature/mapa-ubicacion-campus
+
+Abre un Pull Request (PR) hacia la rama main en GitHub.
+
+Revisión obligatoria: El PR debe ser revisado y aprobado por al menos un compañero de equipo (Peer Review) antes de poder fusionarse (merge)[cite: 1].
+
+Tras la aprobación, se realiza el Merge y se elimina la rama secundaria para mantener limpio el repositorio.
+---
+## ⚙️ Stack de Herramientas Digitales y Automatizaciones
+Gestión y Visión: Notion (Workspace, matriz de roles y tablero Kanban).
+
+Diseño y Prototipado: Figma (Wireframes interactivos de PuntoCampus).
+
+Control de Versiones: GitHub (Flujo de Pull Requests y protección de rama main).
+
+Automatización de Reconocimiento: Make.com (Dispara un mensaje de celebración en Discord al mover tareas a Done).
+
+Monitoreo & Métricas: UptimeRobot (Disponibilidad de la web) / Google Looker Studio (Progreso de tareas).
+
+Cultura de Equipo: Discord (Canal #kudos para reconocimientos genuinos entre integrantes).
