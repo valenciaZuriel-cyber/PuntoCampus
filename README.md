@@ -21,10 +21,10 @@ El equipo opera bajo la Teoría Y de McGregor[cite: 1]: confiamos en la autonom�
 
 | Rol | Responsable | Área de Enfoque |
 | :--- | :--- | :--- |
-| Technical Lead | [Nombre] | Arquitectura frontend/backend, control de versiones y revisión de código. |
-| UI/UX Designer | [Nombre] | Identidad gráfica, diseño de marca y prototipo navegable en Figma. |
-| Process & Automation Manager | [Nombre] | Gestión en Notion/Trello, automatizaciones con Make.com y canal #kudos[cite: 1]. |
-| QA, Deployment & Metrics Lead | [Nombre] | Monitoreo en UptimeRobot, dashboard de métricas en Looker Studio y pruebas[cite: 1]. |
+| Technical Lead | [Angel Guzman] | Arquitectura frontend/backend, control de versiones y revisión de código. |
+| UI/UX Designer | [Zuriel Valencia] | Identidad gráfica, diseño de marca y prototipo navegable en Figma. |
+| Process & Automation Manager | [Rodrigo Zamacona] | Gestión en Notion/Trello, automatizaciones con Make.com y canal #kudos[cite: 1]. |
+| QA, Deployment & Metrics Lead | [Jorge Aviles] | Monitoreo en UptimeRobot, dashboard de métricas en Looker Studio y pruebas[cite: 1]. |
 
 ---
 
@@ -66,9 +66,4 @@ git checkout -b feature/mapa-ubicacion-campus
 
 ---
 
-## 🚀 Despliegue y Enlaces del Proyecto
 
-- Prototipo interactivo en Figma: [Inserta aquí el enlace de Figma]
-- Espacio de Trabajo en Notion: [Inserta aquí el enlace de Notion]
-- Monitor de Disponibilidad (UptimeRobot): [Inserta aquí el enlace público de Uptime]
-- Dashboard de Métricas (Looker Studio): [Inserta aquí el enlace de Looker Studio]
