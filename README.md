@@ -15,22 +15,22 @@ PuntoCampus centraliza la oferta y resuelve la logística dentro del campus:
 
 ---
 
-## 👥 Equipo y Roles por Fortalezas (Teoría Y de McGregor)
+## 👥 Equipo y Roles por Fortalezas 
 
-El equipo opera bajo la Teoría Y de McGregor[cite: 1]: confiamos en la autonomía, el compromiso y las fortalezas de cada miembro, sin microgestión[cite: 1]:
+El equipo opera bajo la Teoría Y de McGregor: confiamos en la autonomía, el compromiso y las fortalezas de cada miembro, sin microgestión:
 
 | Rol | Responsable | Área de Enfoque |
 | :--- | :--- | :--- |
-| Technical Lead | [Angel Guzman] | Arquitectura frontend/backend, control de versiones y revisión de código. |
-| UI/UX Designer | [Zuriel Valencia] | Identidad gráfica, diseño de marca y prototipo navegable en Figma. |
-| Process & Automation Manager | [Rodrigo Zamacona] | Gestión en Notion/Trello, automatizaciones con Make.com y canal #kudos[cite: 1]. |
-| QA, Deployment & Metrics Lead | [Jorge Aviles] | Monitoreo en UptimeRobot, dashboard de métricas en Looker Studio y pruebas[cite: 1]. |
+| Technical Lead | Angel Guzman | Arquitectura frontend/backend, control de versiones y revisión de código. |
+| UI/UX Designer | Zuriel Valencia | Identidad gráfica, diseño de marca y prototipo navegable en Figma. |
+| Process & Automation Manager | Rodrigo Zamacona | Gestión en Notion/Trello, automatizaciones con Make.com y canal #kudos. |
+| QA, Deployment & Metrics Lead | Jorge Aviles | Monitoreo en UptimeRobot, dashboard de métricas en Looker Studio y pruebas. |
 
 ---
 
 ## 🛡️ Flujo de Trabajo y Seguridad (Factores de Higiene de Herzberg)
 
-Para garantizar un entorno de trabajo seguro, ordenado y libre de fricciones técnicas (Factores de Higiene de Herzberg)[cite: 1], queda estrictamente prohibido hacer commits directos a la rama principal (main). Todo cambio sigue el flujo de Pull Requests:
+Para garantizar un entorno de trabajo seguro, ordenado y libre de fricciones técnicas (Factores de Higiene de Herzberg), queda estrictamente prohibido hacer commits directos a la rama principal (main). Todo cambio sigue el flujo de Pull Requests:
 
 ### 1. Convención de Ramas (Git Branching)
 Crea una rama específica a partir de main con un prefijo descriptivo:
@@ -50,7 +50,7 @@ git checkout -b feature/mapa-ubicacion-campus
   git push origin feature/mapa-ubicacion-campus
 
 - Abre un Pull Request (PR) hacia la rama main en GitHub.
-- Revisión obligatoria: El PR debe ser revisado y aprobado por al menos un compañero de equipo (Peer Review) antes de poder fusionarse (merge)[cite: 1].
+- Revisión obligatoria: El PR debe ser revisado y aprobado por al menos un compañero de equipo (Peer Review) antes de poder fusionarse (merge).
 - Tras la aprobación, se realiza el Merge y se elimina la rama secundaria para mantener limpio el repositorio.
 
 ---
@@ -59,10 +59,10 @@ git checkout -b feature/mapa-ubicacion-campus
 
 - Gestión y Visión: Notion (Workspace, matriz de roles y tablero Kanban).
 - Diseño y Prototipado: Figma (Wireframes interactivos de PuntoCampus).
-- Control de Versiones: GitHub (Flujo de Pull Requests y protección de rama main)[cite: 1].
-- Automatización de Reconocimiento: Make.com (Dispara un mensaje de celebración en Discord al mover tareas a Done)[cite: 1].
-- Monitoreo & Métricas: UptimeRobot (Disponibilidad de la web) / Google Looker Studio (Progreso de tareas)[cite: 1].
-- Cultura de Equipo: Discord (Canal #kudos para reconocimientos genuinos entre integrantes)[cite: 1].
+- Control de Versiones: GitHub (Flujo de Pull Requests y protección de rama main).
+- Automatización de Reconocimiento: Make.com (Dispara un mensaje de celebración en Discord al mover tareas a Done).
+- Monitoreo & Métricas: UptimeRobot (Disponibilidad de la web) / Google Looker Studio (Progreso de tareas).
+- Cultura de Equipo: Discord (Canal #kudos para reconocimientos genuinos entre integrantes).
 
 ---
 
