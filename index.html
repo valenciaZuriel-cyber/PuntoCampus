@@ -158,7 +158,7 @@ footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-s
 
 <script>
 // Pega aquí el enlace de tu Google Form real (opcional). Si lo dejas vacío, se usa el formulario de arriba.
-var FORM_URL="";
+var FORM_URL="https://forms.gle/aSGEEqeN2M4XswUx7";
 var CATS=["Todo","Comida","Postres","Artículos","Servicios"];
 var ICON={Comida:"🍲",Postres:"🧁",Artículos:"🛍️",Servicios:"🧑‍🏫"};
 var ZONES=["Todas","Cafetería","Biblioteca","Explanada","Edificio A","Edificio B"];
@@ -208,7 +208,7 @@ opts($("pC"),CATS.slice(1));opts($("pZ"),ZONES.slice(1));
 $("fb").onsubmit=function(e){e.preventDefault();var r=[];try{r=JSON.parse(localStorage.getItem("pc_fb")||"[]")}catch(x){}
  r.push({u:+$("f1").value,v:+$("f2").value,c:+$("f3").value,m:$("f4").value});try{localStorage.setItem("pc_fb",JSON.stringify(r))}catch(x){}
  $("fb").reset();toast("¡Gracias! Tu opinión nos ayuda a mejorar")};
-if(FORM_URL){var a=el("a",null,"Responder en Google Forms");a.href=FORM_URL;a.target="_blank";a.rel="noopener";a.style.fontWeight="700";$("fbLink").appendChild(a)}
+if(FORM_URL){var a=el("a","btn pri","Responder el formulario");a.href=FORM_URL;a.target="_blank";a.rel="noopener";a.style.display="inline-block";a.style.textDecoration="none";$("fbLink").appendChild(a);$("fb").style.display="none"}
 $("goSearch").onclick=function(){render();location.hash="mercado"};
 $("q").onkeydown=function(e){if(e.key==="Enter"){e.preventDefault();$("goSearch").onclick()}};
 $("q").oninput=render;
